@@ -1,0 +1,26 @@
+{
+    "name": "polus/adr-bref",
+    "description": "bref version of adr",
+    "homepage": "https://github.com/polusphp/adr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "andreas@oak-valley.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "psr/http-message": "^1.0",
+        "psr/http-factory": "^1.0",
+        "polus/adr-common": "dev-master",
+        "payload-interop/payload-interop": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polus\\Adr\\Bref\\": "src/"
+        }
+    }
+}
